@@ -1,21 +1,19 @@
 #!/usr/bin/env bash
-#Petit script pour arrêter facilement Fastsdcpu dans un container LXC sous Proxmox, qui a été démarré avec le start.sh !
-#zf250303, zf250304.1105
+#Petit script pour arrêter facilement stable-diffusion-webui-docker qui a été démarré avec le start.sh !
+#zf250717.1834
 
 # source: 
 
-echo -e "Arrêt de Fastsdcpu...
+echo -e "Arrêt de stable-diffusion-webui-docker...
 
 "
 
-for pid in $(pgrep -f start); do
-    pkill -P $pid
-done
+docker stop $(docker ps -q)
 
 pkill -f socat
 
 echo -e "
 
-Fastsdcpu arrêté !
+stable-diffusion-webui-docker arrêté !
 
 "
