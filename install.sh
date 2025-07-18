@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Petit script pour installer facilement stable-diffusion-webui-docker dans une vm Ubuntu de  Proxmox et ses outils qui vont bien
-#zf250717.1748
+#zf250717.1748, zf250717.1816
 
 # source: 
 
@@ -12,7 +12,7 @@ echo ""
 read -p "Etes-vous certain de continuer ( CTRL+C pour arrêter ) ?"
 echo ""
 
-sudo apt update ; apt install socat
+sudo apt update ; sudo apt install socat
 
 
 cd ../
