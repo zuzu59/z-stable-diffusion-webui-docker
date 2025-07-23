@@ -1,7 +1,24 @@
 # z-stable-diffusion-webui-docker
 Juste une installation facile de stable-diffusion-webui-docker dans une vm Ubuntu de  Proxmox
 
-zf250717.1721, zf250719.1831
+zf250717.1721, zf250723.1115
+
+Dépôt plus maintenu à jour !
+
+IL FAUT UTILISER PLUTOT CECI
+
+Pour avoir juste le dernier Comfy à jour:
+
+https://github.com/zuzu59/z-comfyui
+
+Pour avoir 13x interfaces WEB à tester pour Stable Diffusion (Super !)
+
+https://github.com/grokuku/stable-diffusion
+
+
+
+
+
 
 ATTENTION: il ne faut pas confondre le dossier z-stable-diffusion-webui-docker, qui est le mien où il y a MES scripts d'installation<br>
 et utilisation avec le dossier stable-diffusion-webui-docker qui est le dossier original où il y a les script install.sh et start.sh 
